@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Group of group Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Group of group Test(failed)">
+    <classes>
+      <class name="Marah.Admin.TestCases.LoginPageTest">
+        <methods>
+          <include name="login_with_empty_data"/>
+          <include name="webDriver1"/>
+          <include name="webDriver"/>
+          <include name="login_with_valid_credentials"/>
+          <include name="login_with_invalid_credentials"/>
+        </methods>
+      </class> <!-- Marah.Admin.TestCases.LoginPageTest -->
+      <class name="Marah.Admin.TestCases.ServicesTypesTest">
+        <methods>
+          <include name="add_services_types"/>
+          <include name="go_to_services_Types_page"/>
+          <include name="webDriver1"/>
+          <include name="webDriver"/>
+          <include name="add_empty_field"/>
+          <include name="delete_services_types"/>
+          <include name="edit_services_types"/>
+        </methods>
+      </class> <!-- Marah.Admin.TestCases.ServicesTypesTest -->
+      <class name="Marah.Admin.TestCases.EventsPageTest">
+        <methods>
+          <include name="webDriver1"/>
+          <include name="add_event_special_price"/>
+          <include name="add_event_with_invalid_date"/>
+          <include name="webDriver"/>
+          <include name="add_event_special_show"/>
+          <include name="add_event_with_empty"/>
+          <include name="delete_event"/>
+          <include name="add_eventwith_name_only"/>
+          <include name="go_to_Events_page"/>
+        </methods>
+      </class> <!-- Marah.Admin.TestCases.EventsPageTest -->
+    </classes>
+  </test> <!-- Group of group Test(failed) -->
+</suite> <!-- Failed suite [Group of group Suite] -->

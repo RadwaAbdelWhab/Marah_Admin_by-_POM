@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Group of group Suite" >
+  <test verbose="5" name="Group of group Test" group-by-instances="true">
+		<classes>
+		<class name="Marah.Admin.TestCases.Config" />
+					<class name="Marah.Admin.TestCases.LoginPageTest" />
+				    <class name="Marah.Admin.TestCases.UsersTest" />
+				    <class name="Marah.Admin.TestCases.CustomerPageTest" />
+				    <class name="Marah.Admin.TestCases.ServicesTypesTest" />
+				    <class name="Marah.Admin.TestCases.CenterPageTest" />
+					<class name="Marah.Admin.TestCases.EventsPageTest" />
+	                <class name="Marah.Admin.TestCases.SuggestionPageTest" />
+					<class name="Marah.Admin.TestCases.ComplainPageTest" />
+			
+			
+ 
+		</classes>
+	</test>
+</suite> 

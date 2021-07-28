@@ -1,0 +1,9 @@
+Marah\Admin\TestCases\UsersTest.class
+Marah\Admin\TestCases\CenterPageTest.class
+Marah\Admin\TestCases\CustomerPageTest.class
+Marah\Admin\TestCases\LoginPageTest.class
+Marah\Admin\TestCases\EventsPageTest.class
+Marah\Admin\TestCases\SuggestionPageTest.class
+Marah\Admin\TestCases\ServicesTypesTest.class
+Marah\Admin\TestCases\ComplainPageTest.class
+Marah\Admin\TestCases\Config.class

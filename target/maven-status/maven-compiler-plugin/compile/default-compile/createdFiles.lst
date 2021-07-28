@@ -1,0 +1,9 @@
+Bagisto\MarahAdmin\App.class
+Marah\pages\Users.class
+Marah\pages\Centers.class
+Marah\pages\Customer.class
+Marah\pages\LoginPage.class
+Marah\pages\Suggestion.class
+Marah\pages\Events.class
+Marah\pages\Complain.class
+Marah\pages\ServicesTypes.class

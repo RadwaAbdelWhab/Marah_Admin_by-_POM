@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Group of group Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Group of group Test(failed)" verbose="0">
+    <classes>
+      <class name="Marah.Admin.TestCases.EventsPageTest">
+        <methods>
+          <include name="end_method"/>
+          <include name="add_event_with_invalid_date" invocation-numbers="0"/>
+          <include name="webDriver"/>
+          <include name="webDriver1"/>
+          <include name="set_up"/>
+        </methods>
+      </class> <!-- Marah.Admin.TestCases.EventsPageTest -->
+      <class name="Marah.Admin.TestCases.UsersTest">
+        <methods>
+          <include name="set_up"/>
+          <include name="end_method"/>
+          <include name="webDriver"/>
+          <include name="webDriver1"/>
+          <include name="add_user_technical_support" invocation-numbers="0"/>
+          <include name="add_user_admin_by_registered_emai_phone" invocation-numbers="0"/>
+          <include name="add_user_admin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Marah.Admin.TestCases.UsersTest -->
+    </classes>
+  </test> <!-- Group of group Test(failed) -->
+</suite> <!-- Failed suite [Group of group Suite] -->
